@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .carta{
+            width: 70%;
+            background-color: rgb(0, 0, 0);
+            padding: 3%;
+            height: 100vh;
+            border-radius: 25px;
+        }
+        .corpo{
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            background-color: white;
+            flex: 10%;
+            border-radius: 10px;
+            border: 3px solid white;
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, -8px 7px 4px 2px rgba(0,0,0,0.16),inset 4px 4px 15px 0px #000000; 
+            box-shadow: 0px 10px 13px -7px #000000, -8px 7px 4px 2px rgba(0,0,0,0.16),inset 4px 4px 15px 0px #000000;
+        }
+        .imagem{
+            width: 97%;
+            align-self: center;
+            background-color: rgb(255, 13, 13);
+            flex: 60%;
+            border-left: 3px solid white;
+            border-right: 3px solid white;
+            border-radius: 4px;
+        }
+        .borda{
+            background-color: wheat;
+            padding: 3%;
+            height: 850px;
+            border-radius: 20px;
+        }
+        .type{
+            background-color: white;
+            flex: 10%;
+            border-radius: 10px;
+            border: 3px solid white;
+            -webkit-box-shadow: 0px 10px 13px -7px #000000, -8px 7px 4px 2px rgba(0,0,0,0.16),inset 4px 4px 15px 0px #000000; 
+            box-shadow: 0px 10px 13px -7px #000000, -8px 7px 4px 2px rgba(0,0,0,0.16),inset 4px 4px 15px 0px #000000;
+            z-index: 1;
+        }
+        .descricao{
+            width: 98%;
+            align-self: center;
+            background-color: white;
+            flex: 40%;
+            border-left: 3px solid white;
+            border-right: 3px solid white;
+            border-radius: 4px;
+            border-style: inset;
+        }
+        .power{
+            background-color: rgb(0, 255, 85);
+            flex: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .icon{
+            width: 20%;
+            color: thistle;
+            height: 0px;
+        }
+        .branco{
+            position: relative;
+            display: flex;
+            width: 98%;
+            height: 50px;
+            justify-items: center;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="carta">
+        <!-- borda da classe corpo = dourada -->
+        <div class="borda">
+        <div class="corpo">
+            <div class="header">
+                <p></p>
+                <div class="elementos">
+                    <img>
+                    <img>
+                    <img>
+                </div>
+            </div>
+            <div class="imagem"><p></p></div>
+            <div class="type">
+                <p></p>
+                <div class="simbolo">
+                    <img>
+                </div>
+            </div>
+            <div class="descricao">
+                <p></p>
+                <h1></h1>
+                <p></p>
+            </div>
+        </div>
+            <div class="power">
+                <div class="branco"></div>
+            </div>
+            <div class="footer"></div>
+        </div>
+    </div>
+</body>
+</html>
